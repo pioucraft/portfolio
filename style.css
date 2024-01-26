@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 
 .parallax-container {
@@ -65,6 +66,77 @@ body, html {
     fill: #fa7268;
 }
 
-.intro {
+.top {
+    margin: 0;
     background-color: #fa7268;
+    padding: 3vh;
+    padding-top: 5vh;
+    color: wheat;
 }
+
+.custom-shape-divider-bottom-1706274824 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1706274824 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    background-color: #6198ff;
+}
+
+.custom-shape-divider-bottom-1706274824 .shape-fill {
+    fill: #fa7268;
+}
+
+a {
+    color: inherit;
+}
+
+#topFirstElements {
+    display: grid;
+    grid-template-areas: "1 2";
+}
+
+#whatIDo {
+    background-color: orange;
+    width: fit-content;
+    padding: 1.5%;
+    border-radius: 2vh;
+    color:dimgray;
+}
+
+#socialMedias {
+    background-color: orange;
+    width: fit-content;
+    padding: 1.5%;
+    border-radius: 2vh;
+    min-width: 10em;
+    color:dimgray;
+}
+
+#mainProjects {
+    padding: 2%;
+    background-color: #6198ff;
+    color: #603c3c;
+}
+
+.mainProject {
+    background-color: blue;
+    color: whitesmoke;
+    width: fit-content;
+    padding: 1.5%;
+    border-radius: 2vh;
+}
+
+@media screen and (max-width: 100vh) {
+    #topFirstElements {
+        grid-template-areas: "1" "2";
+    }
+}
+
