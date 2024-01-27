@@ -71,7 +71,7 @@ body, html {
     background-color: #fa7268;
     padding: 3vh;
     padding-top: 5vh;
-    color: wheat;
+    color: #68F0FA;
 }
 
 .custom-shape-divider-bottom-1706274824 {
@@ -123,20 +123,39 @@ a {
 #mainProjects {
     padding: 2%;
     background-color: #6198ff;
-    color: #603c3c;
+    color: #FFC861;
+}
+
+#mainProjects-list {
+    width: 100%;
 }
 
 .mainProject {
-    background-color: blue;
-    color: whitesmoke;
     width: fit-content;
     padding: 1.5%;
     border-radius: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#budgettrackerImage {
+    max-width: 100%;
+    background-color: blue;
+    padding: 3%;
+    border-radius: 3vh;
+    max-width: 60vw;
 }
 
 @media screen and (max-width: 100vh) {
     #topFirstElements {
         grid-template-areas: "1" "2";
+    }
+    .mainProject {
+        flex-direction: column;
+    }
+    #budgettrackerImage {
+        max-width: 90vw;
     }
 }
 
